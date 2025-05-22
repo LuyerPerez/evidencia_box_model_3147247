@@ -52,6 +52,7 @@
 }
 
 /* Selector de hermano adyacente */
+
 p + a {
     display: block;
     background-color: crimson;
