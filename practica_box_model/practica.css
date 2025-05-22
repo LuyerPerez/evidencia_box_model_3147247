@@ -1,0 +1,70 @@
+/*selector de clase
+- se determina con punto(.)
+-todas las etiquetas con esa clase
+ tendran el mismo estilo
+*/
+
+/*Modelo de caja
+contenido: texto, imagenes, videos, svg
+en una caja tiene que haber contenido
+o debe tener ancho y alto
+padding(relleno):capa entre el contenido 
+y el relleno
+*/
+.box1{
+    background-color:DeepSkyBlue;
+    height: 200px;
+    padding-top:80px;
+    padding-right: 30ox;
+    padding-bottom: 10px;
+    padding-left: 60px;
+    border-style: dashed;
+    border-color:black;
+    border-width: 10px;
+
+
+}
+
+.box2{
+    background-color: blueviolet;
+    /*propiedades width(ancho) y height
+    aplican solo a la capa de contenido
+    */
+    width: 400px;
+    height: 100px;
+    padding: 30px;
+    padding: 30px 40px 10px;
+    border: dotted rgb(30, 210, 84) 5px;
+}
+
+/* Estilo de identificador
+se denota con #(numeral1)
+solo aplica a un elemento 
+en todo el documento*/
+
+#caja3{
+    padding: 40px 20px;
+    background-color: chartreuse;
+    height: 250px;
+    border-top:red 20px outset ;
+    border-bottom: blue 14px ridge;
+    border-left: 10px rgb(255, 189, 47) double;
+}
+
+#caja4{
+    background-color: darkcyan;
+    height: 100px;
+    padding: 5px;
+    border-top-color: red;
+    border-top-style: double;
+    border-top-width: 5px;
+    border-right-color: blue;
+    border-right-style: outset;
+    border-right-width: 5px;
+    border-bottom-color: brown;
+    border-bottom-style: dashed;
+    border-bottom-width: 5px;
+    border-left-color: cyan;
+    border-left-style: groove;
+    border-left-width: 5px;
+}
