@@ -1,16 +1,11 @@
-/*selector de clase
-- se determina con punto(.)
--todas las etiquetas con esa clase
- tendran el mismo estilo
+/*
+selector de clase
+    - se determina con punto(.)
+    - todas las etiquetas con esa clase
+tendran el mismo estilo
 */
 
-/*Modelo de caja
-contenido: texto, imagenes, videos, svg
-en una caja tiene que haber contenido
-o debe tener ancho y alto
-padding(relleno):capa entre el contenido 
-y el relleno
-*/
+/*Modelo de caja contenido: texto, imagenes, videos, svg en una caja tiene que haber contenido o debe tener ancho y alto padding(relleno):capa entre el contenido y el relleno*/
 .box1{
     background-color:DeepSkyBlue;
     height: 200px;
@@ -21,25 +16,23 @@ y el relleno
     border-style: dashed;
     border-color:black;
     border-width: 10px;
-
-
+    margin: 100px;
 }
 
 .box2{
     background-color: blueviolet;
-    /*propiedades width(ancho) y height
-    aplican solo a la capa de contenido
-    */
+    /*propiedades width(ancho) y height(alto) aplican solo a la capa de contenido*/
     width: 400px;
     height: 100px;
     padding: 30px;
     padding: 30px 40px 10px;
     border: dotted rgb(30, 210, 84) 5px;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-bottom: 20px;
 }
-/* Estilo de identificador
-se denota con #(numeral1)
-solo aplica a un elemento 
-en todo el documento*/
+
+/* Estilo de identificador se denota con #(numeral1) solo aplica a un elemento en todo el documento*/
 
 #caja3{
     padding: 40px 20px;
